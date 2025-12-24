@@ -1,0 +1,122 @@
+/* นำเข้าฟอนต์ */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+@font-face {
+    font-family: 'SOV_ManeeJun';
+    src: url('https://raw.githubusercontent.com/imyouroilyx/SOV_ManeeJun/main/SOV_ManeeJan.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* กล่องหลัก */
+.cs2-box {
+    width: 900px;
+    max-width: 100%;
+    margin: 70px auto 50px auto;
+    background: linear-gradient(to bottom, rgba(20,20,20,0.4), rgba(10,10,10,0.9)), url('https://iili.io/fGR2jMG.png');
+    background-position: center top;
+    background-size: cover;
+    font-family: 'Bai Jamjuree', sans-serif;
+    position: relative;
+    padding: 50px 40px 30px 40px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.8);
+    border: 1px solid #222;
+    border-radius: 2px;
+}
+
+/* หัวข้อ (อำเภอชุมแสง) */
+.cs2-title {
+    position: absolute;
+    top: -75px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'SOV_ManeeJun', cursive;
+    font-size: 130px;
+    line-height: 1;
+    color: #e6ded7;
+    text-shadow: 0 0 10px #000, 3px 3px 0 #000;
+    z-index: 10;
+}
+
+/* รูปภาพหลัก */
+.cs2-img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 21/9;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.2);
+    margin-bottom: 30px;
+}
+
+/* ส่วนเนื้อหา */
+.cs2-text {
+    text-align: justify;
+    font-size: 13pt;
+    line-height: 1.6;
+    text-shadow: 1px 1px 3px #000;
+    padding: 0 10px;
+    color: #e6ded7;
+}
+
+.cs2-text p {
+    margin-bottom: 15px;
+}
+
+/* เส้นคั่น */
+.cs2-divider {
+    width: 80%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(255,255,255,0.3), transparent);
+    margin: 30px auto;
+}
+
+/* ส่วนสถานที่ใกล้เคียง */
+.cs2-nearby {
+    text-align: center;
+    font-size: 14px;
+    text-shadow: 1px 1px 2px #000;
+    margin-bottom: 20px;
+}
+
+.cs2-nearby-head {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #e6ded7;
+}
+
+.cs2-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 12pt;
+    color: #e6ded7;
+}
+
+.cs2-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cs2-dot {
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+/* โลโก้ */
+.cs2-logo {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80px;
+    z-index: 10;
+    filter: drop-shadow(0 2px 5px rgba(0,0,0,0.8));
+}
