@@ -10,7 +10,7 @@
 
 /* กล่องหลัก */
 .cs2-box {
-    width: 900px;
+    width: 800px;
     max-width: 100%;
     margin: 70px auto 50px auto;
     background: linear-gradient(to bottom, rgba(20,20,20,0.4), rgba(10,10,10,0.9)), url('https://iili.io/fGR2jMG.png');
